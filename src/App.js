@@ -19,10 +19,10 @@ const MainContent = () => {
       <CardSqueme 
         title="Our Designs" 
         photo_icon={[
-          "/img/card-photo-1.jpg", 
-          "/img/card-photo-2.jpg", 
-          "/img/card-photo-3.jpg", 
-          "/img/card-photo-4.jpg"]} 
+          "https://i.pinimg.com/originals/ae/85/b2/ae85b2378f3484b3091c31f959f3179a.jpg", 
+          "https://i.pinimg.com/736x/7f/f0/53/7ff0532ffcaa44d694df47aca2be9b40.jpg", 
+          "https://upload.wikimedia.org/wikipedia/commons/2/25/Charly_Garc%C3%ADa_por_Alejandro_Kuropatwa.jpg", 
+          "https://i.pinimg.com/564x/a7/13/d4/a713d44bc58ebe8a62957d17092499d4.jpg"]} 
         cardTitle={[
           "Cosplays", 
           "suits", 
@@ -39,10 +39,10 @@ const MainContent = () => {
       <CardSqueme 
         title="Most Popular" 
         photo_icon={[
-          "/img/card-photo-3.jpg", 
-          "/img/card-photo-5.jpg", 
-          "/img/card-photo-6.jpg", 
-          "/img/card-photo-7.jpg"]} 
+          "https://upload.wikimedia.org/wikipedia/commons/2/25/Charly_Garc%C3%ADa_por_Alejandro_Kuropatwa.jpg", 
+          "https://i.pinimg.com/564x/a4/b0/08/a4b008cd249164aa4360d0e33d66fd3d.jpg", 
+          "https://i.pinimg.com/564x/45/8f/62/458f62fe6c6a882958f065d47dfcaedc.jpg", 
+          "https://i.pinimg.com/564x/0a/d3/c2/0ad3c2ba799fc0420d6cbaeb7f6dbd2a.jpg"]} 
         cardTitle={[
           "Vintage Outfits", 
           "80's Style", 
