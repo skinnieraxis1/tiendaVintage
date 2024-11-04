@@ -1,0 +1,52 @@
+.footer{
+    background-color: #d9c6a3 !important;
+    color: white;
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    border: 0px !important;
+    box-shadow: 0 0px 0px 0 rgba(34,36,38,.15) !important;
+}
+
+footer{
+    background-color: #d9c6a3 !important;
+    color: white;
+    padding-left: 1svh;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ui.divider{
+    color: white !important;
+}
+
+.footer-right{
+}
+
+.phonesLi{
+    font-size: 3svh !important;
+    width: 45%;
+    float: left;
+    padding-left: 2svh !important;
+}
+
+.socialLi{
+    font-size: 3svh !important;
+    width: 45%;
+    float: right;
+    padding-left: 2svh !important;
+    margin: 0px !important;
+}
+
+.footer-right-title{
+    width: 40%;
+    float: left;
+}
+
+.footer-right-div-li{
+    float: left;
+    width: 100%;
+}

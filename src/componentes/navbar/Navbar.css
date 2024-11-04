@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+.old-standard-tt-regular {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6svh;
+}
+
+.old-standard-tt-bold {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.old-standard-tt-regular-italic {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+
+.navbar{
+    width: 100%;
+    height: 14svh;
+    background-color: #6da0a6;
+    color: #f2f2eb;
+    display: flex;
+    justify-content: space-between; /* Align the icons to the left and right */
+    align-items: center; /* Center vertically */
+}
+
+.cartIcon{
+    width: 10svh;
+    height: 10svh;
+    float: right;
+}
+
+.camera{
+    width: 7svh;
+    height: 7svh;
+}
+
+.leftDiv{
+    width: 30%;
+}
+
+.title{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    width: 30%;
+}
+
+.cart div{
+    background-color: #f2f2eb;
+    color: #6da0a6;
+    border-radius: 50%;
+    width: 4svh;
+    height: 4svh;
+    text-align: center;
+    position: absolute;
+    right: 1svh;
+    top: 2svh;
+    padding: auto;
+    
+}
+
+.cart div h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 3svh;
+}
+
+.title, .cart{
+    cursor: pointer;
+}
