@@ -34,7 +34,7 @@ const MainContent = () => {
           "Vintage Outfits",
           "Friki Oversized"
         ]}
-        onCardSelect={(genre) => navigate(`/shop/${genre}`)} 
+        onCardSelect={(genre) => navigate(`/tiendaVintage/shop/${genre}`)} 
       />
       <CardSqueme 
         title="Most Popular" 
@@ -54,7 +54,7 @@ const MainContent = () => {
           "Alternative Style",
           "Friki Oversized"
         ]}
-        onCardSelect={(genre) => navigate(`/shop/${genre}`)} 
+        onCardSelect={(genre) => navigate(`/tiendaVintage/shop/${genre}`)} 
       />
     </>
   );
@@ -68,9 +68,9 @@ function App() {
           <Navbar/>
           <div className='ui divider spaceLine'></div>
           <Routes>
-            <Route path="/" element={<MainContent />} />
-            <Route path="/shop/:genre" element={<Shop />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/tiendaVintage" element={<MainContent />} />
+            <Route path="/tiendaVintage/shop/:genre" element={<Shop />} />
+            <Route path="/tiendaVintage/cart" element={<Cart />} />
           </Routes>
           <div className='ui divider spaceLine'></div>
           <Footer />

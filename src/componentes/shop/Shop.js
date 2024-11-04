@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { useParams } from 'react-router-dom'; // Importar useParams
+import { useParams } from 'react-router-dom'; 
 import { Card, Container } from 'semantic-ui-react';
 import './Shop.css';
 import { CartContext } from '../../context/CartContext';
 import ropa from '../../database/ropa'; 
 
 const Shop = () => {
-    const { genre } = useParams(); // Obtener el género de los parámetros
+    const { genre } = useParams(); 
     const { cartItems, addToCart } = useContext(CartContext);
     const [products, setProducts] = useState([]);
     const [visibilidad, setVisibilidad] = useState({});

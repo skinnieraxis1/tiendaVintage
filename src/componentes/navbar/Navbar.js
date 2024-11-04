@@ -12,10 +12,10 @@ function Navbar() {
   const changePath = (path) => {
     switch (path) {
       case 'inicio':
-        navigate('/');
+        navigate('/tiendaVintage');
         break;
       case 'cart':
-        navigate('/cart');
+        navigate('/tiendaVintage/cart');
         break;
       default:
         break;

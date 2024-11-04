@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { CartContext } from '../../context/CartContext';
 import { Table, Button } from 'semantic-ui-react';
-import './Cart.css'; // Asegúrate de tener estilos si los necesitas
+import './Cart.css'; 
 
 const Cart = () => {
     const { cartItems, removeItems, setCartItems } = useContext(CartContext);
