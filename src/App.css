@@ -1,0 +1,9 @@
+.spaceLine{
+    margin: 7svh 8svh !important;
+    border-top: 1.5px solid #658da6 !important;
+    border-bottom: 1.5px solid #658da6 !important;
+}
+
+body{
+    background-color: #f2f2eb;
+}

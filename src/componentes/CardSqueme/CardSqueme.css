@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.old-standard-tt-regular {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.old-standard-tt-bold {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-squeme-title {
+  text-align: center;
+  padding: 5svh;
+}
+
+.card-squeme-title h2 {
+  font-size: 7svh;
+  font-weight: 550;
+}
+
+.card-squeme-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  line-height: 10svh;
+  cursor: pointer;
+}
+
+.squeme-card {
+  flex: 1 1 calc(25% - 10px);
+  height: 80svh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.squeme-card:hover{
+  transform: scale(1.1);
+  border-radius: 25px;
+}
+
+.squeme-card-title h3 {
+  font-size: 7svh;
+  color: white;
+  filter: drop-shadow(0.2svh 0 0 #808080) 
+          drop-shadow(0 0.2svh 0 #808080)
+          drop-shadow(-0.2svh 0 0 #808080) 
+          drop-shadow(0 -0.2svh 0 #808080);
+}
+
+  
