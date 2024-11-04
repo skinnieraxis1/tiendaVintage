@@ -1,5 +1,5 @@
 // App.js
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar.js';
 import Carrusel from './componentes/carrusel/Carrusel.js';
 import CardSqueme from './componentes/CardSqueme/CardSqueme.js';
